@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.db
+*.ipch
+*.vsix
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+*.filters
+*.vcxproj.user
+*.vcxproj.filters
+*.log
+*.tlog
+*.lastbuildstate
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# Blender
+*.blend1
+*.blend2
+*.blend3
+ble-thumbcache-*.png
+
+# Common
+Thumbs.db
+Desktop.ini
+.DS_Store

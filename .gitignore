@@ -1,38 +1,26 @@
-# Visual Studio
+# Visual Studio cache and user files
 .vs/
-bin/
-obj/
-Debug/
-Release/
-x64/
-x86/
+**/.vs/
 *.user
 *.suo
-*.db
-*.ipch
-*.vsix
 *.VC.db
-*.VC.opendb
-*.sln.docstates
-*.filters
-*.vcxproj.user
-*.vcxproj.filters
-*.log
-*.tlog
-*.lastbuildstate
+*.ipch
+
+# Build folders
+x64/
+**/x64/
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# Build artifacts (safe)
 *.pdb
 *.ilk
+*.log
+*.tlog
+*.idb
 *.exe
-*.dll
-*.lib
 
-# Blender
-*.blend1
-*.blend2
-*.blend3
-ble-thumbcache-*.png
-
-# Common
-Thumbs.db
-Desktop.ini
-.DS_Store
+# Do NOT ignore .obj / .dll / .lib for this course
+# (models may be .obj, and libraries ship .dll/.lib)
